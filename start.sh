@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Se déplacer dans le dossier backend
-cd backend || exit 1
-
 # Appliquer les migrations Django
 echo "Applying Django migrations..."
 python manage.py migrate
